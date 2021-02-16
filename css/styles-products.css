@@ -1,0 +1,134 @@
+.container{
+    margin: 0px 104.25px;
+}
+
+.container-main{
+    width: 1230px;
+    height: 399px;
+    margin-top: 121.5px;
+    padding: 32.25px 43.12px;
+    background: var(--blanco);
+    border: 1px solid var(--gris-claro);
+    border-radius: 3.75px;
+}
+
+.container-main__product{
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+}
+
+.container-main__product-img{
+    width: 289.5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-main__product-graf{
+    width: 399.75px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container__product{
+    width: 350.25px;
+    position: relative;
+}
+
+.container__product-title{
+    margin-bottom: 3px;
+    font-size: 33.75px;
+    font-weight: 700;
+}
+
+.container__product-filter{
+    font-size: 15px;
+    color: var(--azul);
+    font-weight: 400;
+}
+
+.container__product-current{
+    margin-top: 10px;
+    font-size: 15px;
+    color: var(--gris);
+    font-weight: 400;
+}
+
+.container__product-price{
+    font-size: 33.75px;
+    color: var(--price);
+    font-weight: 700;
+}
+
+.container__product-button{
+    position: absolute;
+    bottom: 1px;
+    right: 0px;
+    width: 162px;
+}
+
+.container-main__keep-track{
+    font-size: 25.5px;
+    font-weight: 600;
+    margin-top: 67.5px;
+    margin-bottom: 15px;
+}
+
+.keep-track{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.keep-track__email{
+    width: 284.25px;
+    height: 42.75px;
+    color: var(--gris);
+    padding-left: 15px;
+    border: 1px solid var(--gris-claro);
+    border-radius: 3.75px;
+    box-shadow: 0px 3px 5px rgba(146, 146, 146,0.16);
+}
+
+.keep-track__checkbox-column{
+    display: inline-block;
+}
+
+.keep-track__checkbox-list{
+    list-style: none;
+}
+
+input[type=checkbox]{
+    margin-right: 9.75px;
+    margin-left: 20px;
+}
+
+.keep-track__checkbox-option{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.keep-track__price-drop{
+    width: 226.5px;
+    height: 42.75px;
+    color: var(--gris);
+    padding-left: 15px;
+    border: 1px solid var(--gris-claro);
+    border-radius: 3.75px;
+    box-shadow: 0px 3px 5px rgba(146, 146, 146,0.16);
+}
+
+.keep-track__button{
+    width: 162px;
+}
+
+.footer{
+    margin-top: 53.25px;
+    margin-bottom: 53.25px;
+}
+
+.products-gallery__title{
+    font-size: 33.75px;
+    font-weight: 700;
+    margin: 41.25px 104.25px;
+}
